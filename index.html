@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Criptomoedas</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<section class="falso-header">
+
+    <video autoplay muted loop id="video-bg">
+
+        <source src="img/btc.mp4" type="video/mp4">
+
+    </video>
+
+    <section class="cabecalho">
+
+        <header>
+
+            <img class="logo-coinlore" src="img/black.png" alt="Company Logo">
+
+            <h1>Consulta de Criptomoedas</h1>
+
+        </header>
+
+        <div class="ctt">
+
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </section>
+
+</section>
+    
+<section class="main">
+
+    <h2>O que fazemos?</h2>
+
+    <p>Nosso site permite que você pesquise informações sobre criptomoedas usando uma API gratuita. Basta digitar o nome da criptomoeda na barra de pesquisa e clicar em "Consultar" para obter os dados da moeda.</p>
+
+    
+    <p class="menu-icon">&#9776;</p>
+    
+    <nav class="nav-menu">
+        <ul>
+            <li><a href="#">Bitcoin</a></li>
+            <li><a href="#">Ethereum</a></li>
+            <li><a href="#">Binance Coin</a></li>
+            <li><a href="#">Cardano</a></li>
+            <li><a href="#">Dogecoin</a></li>
+            <li><a href="#">Polkadot</a></li>
+            <li><a href="#">Solana</a></li>
+            <li><a href="#">XRP</a></li>
+            <li><a href="#">Uniswap</a></li>
+            <li><a href="#">Litecoin</a></li>
+            <li><a href="#">Chainlink</a></li>
+            <li><a href="#">Bitcoin Cash</a></li>
+            <li><a href="#">Stellar</a></li>
+            <li><a href="#">USD Coin</a></li>
+            <li><a href="#">VeChain</a></li>
+            <li><a href="#">TRON</a></li>
+            <li><a href="#">Theta</a></li>
+            <li><a href="#">Filecoin</a></li>
+            <li><a href="#">Ethereum Classic</a></li>
+            <li><a href="#">Monero</a></li>
+            <li><a href="#">IOTA</a></li>
+            <li><a href="#">EOS</a></li>
+            <li><a href="#">Tezos</a></li>
+            <li><a href="#">Aave</a></li>
+            <li><a href="#">Crypto.com Coin</a></li>
+            <li><a href="#">NEO</a></li>
+            <li><a href="#">Cosmos</a></li>
+            <li><a href="#">Maker</a></li>
+            <li><a href="#">Dash</a></li>
+            <li><a href="#">Compound</a></li>
+            <li><a href="#">Zcash</a></li>
+            <li><a href="#">Elrond</a></li>
+            <li><a href="#">Algorand</a></li>
+            <li><a href="#">Decred</a></li>
+            <li><a href="#">SushiSwap</a></li>
+            <li><a href="#">Waves</a></li>
+            <li><a href="#">yearn.finance</a></li>
+            <li><a href="#">Chiliz</a></li>
+            <li><a href="#">Hedera Hashgraph</a></li>
+            <li><a href="#">Holo</a></li>
+            <li><a href="#">Enjin Coin</a></li>
+            <li><a href="#">Stacks</a></li>
+            <li><a href="#">Ontology</a></li>
+            <li><a href="#">Basic Attention Token</a></li>
+            <li><a href="#">NEM</a></li>
+            <li><a href="#">Decentraland</a></li>
+            <li><a href="#">Digibyte</a></li>
+            <li><a href="#">Zilliqa</a></li>
+            <li><a href="#">0x</a></li>
+            <li><a href="#">Ren</a></li>
+            <li><a href="#">Synthetix</a></li>
+            <li><a href="#">ICON</a></li>
+            <li><a href="#">UMA</a></li>
+            <li><a href="#">Horizen</a></li>
+            <li><a href="#">Siacoin</a></li>
+            <li><a href="#">Qtum</a></li>
+            <li><a href="#">Loopring</a></li>
+            <li><a href="#">OMG Network</a></li>
+            <li><a href="#">Revain</a></li>
+            <li>
+         </div>
+
+        </ul>
+    </nav>
+
+
+    <h3>Pesquise uma criptomoeda:</h3>
+
+    <form id="crypto-form">
+       
+            <input class="btns" type="text" id="crypto-name" placeholder="Digite a criptomoeda">
+            <button class="btns" type="submit">Consultar</button>
+            <button class="btns" type="button" id="clear-button">Limpar</button>
+    </form>
+
+    <div id="crypto-info"></div>
+    <div class="imagens2"> 
+        <img class="img2" src="img/bot.webp" alt="img1">
+        <img class="img2" src="img/criptomoedas.webp" alt="img2">
+        <img class="img2" src="img/graphic.webp" alt="img3">
+        <img class="img2" src="img/wordBTC.jpg" alt="img4">
+
+    </div>
+
+    <div class="top3rank">
+<p>_______________________________________________________________________________________________
+    <h5>    Principais do Mercado:</h5>
+</p>
+        <table class="tabela-cripto">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Criptomoeda</th>
+                    <th>Preço</th>
+                    <th>1h</th>
+                    <th>24h</th>
+                    <th>7d</th>
+                    <th>Cap. de Mercado</th>
+                    <th>Volume 24h</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- BITCOIN 1-->
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <img src="img/BTC.logo.png" alt="Bitcoin" width="20px" height="auto"> 
+                        Bitcoin BTC 
+                        <span class="estrela-favorito">&#9733;</span>
+                    </td>
+                    <td>$65.239</td>
+                    <td class="mudanca-negativa">-0.27%</td>
+                    <td class="mudanca-negativa">-1.56%</td>
+                    <td class="mudanca-positiva">6.78%</td>
+                    <td>$1.3 T</td>
+                    <td>$29.7 bn</td>
+                </tr>
+                <!-- ETHERIUM 2-->
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <img src="img/ETH.logo.png" alt="Bitcoin" width="20px" height="auto"> 
+                        Ethereum ETH
+                        
+                    </td>
+                    <td>$2.945</td>
+                    <td class="mudanca-positiva">0.21%</td>
+                    <td class="mudanca-negativa">-2.94%</td>
+                    <td class="mudanca-negativa">-1.15%</td>
+                    <td>$360.4 bn</td>
+                    <td>$10.4 bn</td>
+                </tr>
+                <!-- THETER 3 -->
+                <tr>
+                    <td>3</td>
+                    <td><img src="img/USDT.logo.png" alt="Bitcoin" width="20px" height="auto"> 
+                        Tether USDT
+                       
+                    </td>
+                    <td>$1.00</td>
+                    <td class="mudanca-negativa">-0.01%</td>
+                    <td class="mudanca-positiva">0.23%</td>
+                    <td class="mudanca-positiva">0.03%</td>
+                    <td>$100.8 bn</td>
+                    <td>$45.7 bn</td>
+                </tr>
+              
+
+            </tbody>
+            </table>
+
+    </div>
+
+</section>
+
+
+
+
+
+<footer>
+    <div class="division">
+        <div class="dv1">
+            <ul>Site Desenvolvido por <a href="">Cauan Cicone</a> em HTML5, CSS e JavaScript.</ul>
+        </div>
+        <div class="dv2">
+            <ul> CONTATO
+                <li>instagram: <a href="">@cic0ne_cauan</a></li>
+                <li>phone: <a href="">19 981011315</a></li>
+                <li>e-mail: <a href="">cauan.cicone@gmail.com</a></li>
+            </ul>
+        </div>
+        <div class="dv3">
+            <ul> Termos e Condições</ul>
+          <p>  &copy; 2024 Consulta de Criptomoedas. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
